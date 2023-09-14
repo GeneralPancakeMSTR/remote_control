@@ -1,0 +1,100 @@
+Labels:
+  "Favorites":
+Sort: 1
+Models:
+  model1.yml:
+    hash: "850f00001a57aeb3"
+    name: "Model01"
+    labels: ""
+    bitmap: ""
+    lastopen: 0
+  model2.yml:
+    hash: "2f1800001a57aeb3"
+    name: "AccuRC_Heli"
+    labels: ""
+    bitmap: ""
+    lastopen: 0
+  model3.yml:
+    hash: "3b1900001a57aeb3"
+    name: "AccuRC_Drone"
+    labels: ""
+    bitmap: ""
+    lastopen: 0
+  model4.yml:
+    hash: "3b1900001a57aeb3"
+    name: "AccuRC_Plane"
+    labels: ""
+    bitmap: ""
+    lastopen: 0
+  model5.yml:
+    hash: "743d000032299ca5"
+    name: "ELRS Helicopter"
+    mod1type: 5
+    labels: ""
+    bitmap: ""
+    lastopen: 969340378
+  model6.yml:
+    hash: "883b00001a57aeb3"
+    name: "M2 EVO OMP"
+    mod0id: 2
+    mod0type: 6
+    mod0rf: 74
+    labels: ""
+    bitmap: ""
+    lastopen: 0
+  model7.yml:
+    hash: "fc3e00001a57aeb3"
+    name: "M2 EVO SFHSS"
+    mod0id: 3
+    mod0type: 6
+    mod0rf: 19
+    labels: ""
+    bitmap: ""
+    lastopen: 0
+  model8.yml:
+    hash: "f75700001a57aeb3"
+    name: "M2 EVO ELRS"
+    mod1type: 5
+    labels: ""
+    bitmap: ""
+    lastopen: 0
+  model9.yml:
+    hash: "4a2a00001a57aeb3"
+    name: "Heli_Template"
+    labels: ""
+    bitmap: ""
+    lastopen: 0
+  model10.yml:
+    hash: "1f1600001a57aeb3"
+    name: "Heli_test"
+    mod0id: 1
+    mod0type: 6
+    mod0rf: 2
+    labels: ""
+    bitmap: ""
+    lastopen: 0
+  model11.yml:
+    hash: "bc3700001a57aeb3"
+    name: "Raw 420 R161"
+    mod0type: 6
+    mod0rf: 2
+    labels: ""
+    bitmap: ""
+    lastopen: 0
+  model12.yml:
+    hash: "903500001a57aeb3"
+    name: "OMP M1"
+    mod0id: 5
+    mod0type: 6
+    mod0rf: 19
+    labels: ""
+    bitmap: ""
+    lastopen: 0
+  model13.yml:
+    hash: "d75900001a57aeb3"
+    name: "RAW 420 RF ELRS"
+    mod1type: 5
+    labels: ""
+    bitmap: ""
+    lastopen: 0
+

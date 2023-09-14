@@ -1,0 +1,40 @@
+# remove resources											
+resource MOTOR 1 NONE											
+resource MOTOR 2 NONE											
+#											
+#											
+#											
+#											
+#											
+#											
+#											
+#											
+#											
+											
+# resources											
+resource MOTOR 1     C08											
+resource MOTOR 2     C09											
+resource SERVO 1     B00											
+resource SERVO 2     B01											
+resource SERVO 3     A10											
+resource SERVO 4     NONE											
+# No Freq pin configured											
+											
+# No feature FREQ_SENSOR											
+set tail_rotor_mode = MOTORIZED											
+											
+# timers											
+timer  C08   AF3              # M1 - pin C08: TIM8 CH3 (AF3)  											
+timer  C09   AF3              # M2/S4 - pin C09: TIM8 CH4 (AF3)											
+timer  B00   AF1              # S1 - pin B00: TIM1 CH2N (AF1)  											
+timer  B01   AF2              # S2 - pin B01: TIM3 CH4 (AF2)  											
+timer  A10   AF1              # S3 - pin A10: TIM1 CH3 (AF1)  											
+# No freq timer											
+											
+# dma											
+dma pin C08 0                 # M1 - 0: DMA2 Stream 2 Channel 0											
+dma pin C09 0                 # M2/S4 - 0: DMA2 Stream 7 Channel 7 											
+dma pin B00 1                 # S1 - 1: DMA2 Stream 2 Channel 6											
+dma pin B01 0                 # S2 - 0: DMA1 Stream 2 Channel 5											
+dma pin A10 0                 # S3 - 0: DMA2 Stream 6 Channel 0											
+# No dma on selected pin and timer											

@@ -1,0 +1,894 @@
+semver: 2.8.4
+header:
+  name: OMP M1
+  bitmap: ""
+  labels: ""
+  modelId:
+    0:
+      val: 5
+noGlobalFunctions: 0
+thrTrim: 0
+trimInc: 0
+displayTrims: 0
+ignoreSensorIds: 0
+disableThrottleWarning: 0
+enableCustomThrottleWarning: 0
+customThrottleWarningPosition: 0
+beepANACenter: 0
+extendedLimits: 0
+extendedTrims: 0
+throttleReversed: 0
+mixData:
+  - destCh: 0
+    srcRaw: I0
+    weight: 100
+    swtch: NONE
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: ADD
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: ""
+  - destCh: 0
+    srcRaw: Thr
+    weight: 100
+    swtch: 6P14
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: SrvAdj
+  - destCh: 0
+    srcRaw: MAX
+    weight: 0
+    swtch: 6P15
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: Adj
+  - destCh: 1
+    srcRaw: I1
+    weight: 100
+    swtch: NONE
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: Ele
+  - destCh: 1
+    srcRaw: I3
+    weight: 100
+    swtch: 6P14
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: SrvAdj
+  - destCh: 1
+    srcRaw: I1
+    weight: 100
+    swtch: 6P15
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: Adj
+  - destCh: 2
+    srcRaw: I2
+    weight: 100
+    swtch: SE0
+    curve:
+      type: 3
+      value: 1
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: Normal
+  - destCh: 2
+    srcRaw: I2
+    weight: 100
+    swtch: SE0
+    curve:
+      type: 3
+      value: 2
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: Idle0
+  - destCh: 2
+    srcRaw: I2
+    weight: 100
+    swtch: SE1
+    curve:
+      type: 3
+      value: 3
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: Idle1
+  - destCh: 2
+    srcRaw: I2
+    weight: 65
+    swtch: SE2
+    curve:
+      type: 3
+      value: 4
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: Idle2
+  - destCh: 2
+    srcRaw: I2
+    weight: 100
+    swtch: SF0
+    curve:
+      type: 3
+      value: 5
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: Hold
+  - destCh: 2
+    srcRaw: MAX
+    weight: -100
+    swtch: 6P14
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: SrvAdj
+  - destCh: 2
+    srcRaw: MAX
+    weight: -100
+    swtch: 6P15
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: Adj
+  - destCh: 3
+    srcRaw: I3
+    weight: 100
+    swtch: NONE
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: ADD
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: ""
+  - destCh: 3
+    srcRaw: S1
+    weight: 100
+    swtch: 6P14
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: SrvAdj
+  - destCh: 3
+    srcRaw: MAX
+    weight: 0
+    swtch: 6P15
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: Adj
+  - destCh: 4
+    srcRaw: MAX
+    weight: -100
+    swtch: NONE
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: Level
+  - destCh: 4
+    srcRaw: MAX
+    weight: 100
+    swtch: "!L1"
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: HLck
+  - destCh: 4
+    srcRaw: MAX
+    weight: 0
+    swtch: 6P14
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: SrvAdj
+  - destCh: 4
+    srcRaw: MAX
+    weight: 0
+    swtch: 6P15
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: Adj
+  - destCh: 5
+    srcRaw: I2
+    weight: 100
+    swtch: SE0
+    curve:
+      type: 3
+      value: 10
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: Normal
+  - destCh: 5
+    srcRaw: I2
+    weight: 100
+    swtch: SE0
+    curve:
+      type: 3
+      value: 11
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: Idle0
+  - destCh: 5
+    srcRaw: I2
+    weight: 100
+    swtch: SE1
+    curve:
+      type: 3
+      value: 12
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: Idle1
+  - destCh: 5
+    srcRaw: I2
+    weight: 100
+    swtch: SE2
+    curve:
+      type: 3
+      value: 13
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: Idle2
+  - destCh: 5
+    srcRaw: MAX
+    weight: 0
+    swtch: 6P14
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: SrvAdj
+  - destCh: 5
+    srcRaw: MAX
+    weight: 0
+    swtch: 6P15
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: REPL
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: Adj
+limitData:
+  0:
+    min: 0
+    max: 0
+    revert: 1
+    offset: 0
+    ppmCenter: 0
+    symetrical: 0
+    name: Ail
+    curve: 0
+  1:
+    min: 0
+    max: 0
+    revert: 0
+    offset: 0
+    ppmCenter: 0
+    symetrical: 0
+    name: Ele
+    curve: 0
+  2:
+    min: 0
+    max: 0
+    revert: 0
+    offset: 0
+    ppmCenter: 0
+    symetrical: 0
+    name: Thr
+    curve: 0
+  3:
+    min: 0
+    max: 0
+    revert: 1
+    offset: 0
+    ppmCenter: 0
+    symetrical: 0
+    name: Rud
+    curve: 0
+  4:
+    min: 0
+    max: 0
+    revert: 0
+    offset: 0
+    ppmCenter: 0
+    symetrical: 0
+    name: Attd
+    curve: 0
+  5:
+    min: 0
+    max: 0
+    revert: 0
+    offset: 0
+    ppmCenter: 0
+    symetrical: 0
+    name: Pitch
+    curve: 0
+expoData:
+  - srcRaw: Ail
+    scale: 0
+    mode: 3
+    chn: 0
+    swtch: SD2
+    flightModes: 000000000
+    weight: 100
+    offset: 0
+    curve:
+      type: 1
+      value: 50
+    trimSource: 0
+    name: FRate
+  - srcRaw: Ail
+    scale: 0
+    mode: 3
+    chn: 0
+    swtch: SD1
+    flightModes: 000000000
+    weight: 75
+    offset: 0
+    curve:
+      type: 1
+      value: 25
+    trimSource: 0
+    name: MRate
+  - srcRaw: Ail
+    scale: 0
+    mode: 3
+    chn: 0
+    swtch: SD0
+    flightModes: 000000000
+    weight: 50
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+    trimSource: 0
+    name: LRate
+  - srcRaw: Ele
+    scale: 0
+    mode: 3
+    chn: 1
+    swtch: SD2
+    flightModes: 000000000
+    weight: 100
+    offset: 0
+    curve:
+      type: 1
+      value: 50
+    trimSource: 0
+    name: FRate
+  - srcRaw: Ele
+    scale: 0
+    mode: 3
+    chn: 1
+    swtch: SD1
+    flightModes: 000000000
+    weight: 75
+    offset: 0
+    curve:
+      type: 1
+      value: 25
+    trimSource: 0
+    name: MRate
+  - srcRaw: Ele
+    scale: 0
+    mode: 3
+    chn: 1
+    swtch: SD0
+    flightModes: 000000000
+    weight: 50
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+    trimSource: 0
+    name: LRate
+  - srcRaw: Thr
+    scale: 0
+    mode: 3
+    chn: 2
+    swtch: NONE
+    flightModes: 000000000
+    weight: 100
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+    trimSource: 0
+    name: ""
+  - srcRaw: Rud
+    scale: 0
+    mode: 3
+    chn: 3
+    swtch: SD2
+    flightModes: 000000000
+    weight: 100
+    offset: 0
+    curve:
+      type: 1
+      value: 50
+    trimSource: 0
+    name: FRate
+  - srcRaw: Rud
+    scale: 0
+    mode: 3
+    chn: 3
+    swtch: SD1
+    flightModes: 000000000
+    weight: 75
+    offset: 0
+    curve:
+      type: 1
+      value: 25
+    trimSource: 0
+    name: MRate
+  - srcRaw: Rud
+    scale: 0
+    mode: 3
+    chn: 3
+    swtch: SD0
+    flightModes: 000000000
+    weight: 50
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+    trimSource: 0
+    name: LRate
+inputNames:
+  0:
+    val: Ail
+  1:
+    val: Ele
+  2:
+    val: Thr
+  3:
+    val: Rud
+curves:
+  0:
+    type: 0
+    smooth: 1
+    points: 0
+    name: ThN
+  1:
+    type: 0
+    smooth: 0
+    points: -3
+    name: Th0
+  2:
+    type: 0
+    smooth: 0
+    points: -3
+    name: Th1
+  3:
+    type: 0
+    smooth: 0
+    points: -3
+    name: Th2
+  4:
+    type: 0
+    smooth: 0
+    points: -3
+    name: ThH
+  9:
+    type: 0
+    smooth: 0
+    points: -3
+    name: PtN
+  10:
+    type: 0
+    smooth: 0
+    points: -3
+    name: Pt0
+  11:
+    type: 0
+    smooth: 0
+    points: -3
+    name: Pt1
+  12:
+    type: 0
+    smooth: 0
+    points: -3
+    name: Pt2
+  13:
+    type: 0
+    smooth: 0
+    points: -3
+    name: PtH
+points:
+  0:
+    val: -100
+  1:
+    val: 0
+  2:
+    val: 20
+  3:
+    val: 25
+  4:
+    val: 30
+  5:
+    val: 25
+  6:
+    val: 25
+  7:
+    val: 50
+  8:
+    val: 50
+  9:
+    val: 100
+  10:
+    val: 100
+  11:
+    val: -100
+  12:
+    val: -100
+  33:
+    val: -10
+  34:
+    val: 90
+  35:
+    val: -60
+  36:
+    val: 60
+  37:
+    val: -75
+  38:
+    val: 75
+  39:
+    val: -100
+  40:
+    val: 100
+  41:
+    val: -100
+  42:
+    val: 100
+logicalSw:
+  0:
+    func: FUNC_STICKY
+    def: TrimAilRight,TrimAilLeft
+    delay: 0
+    duration: 0
+    andsw: NONE
+customFn:
+  0:
+    swtch: SD0
+    func: PLAY_TRACK
+    def: lowrat,1x
+  1:
+    swtch: SD1
+    func: PLAY_TRACK
+    def: midrat,1x
+  2:
+    swtch: SD2
+    func: PLAY_TRACK
+    def: hirat,1x
+  3:
+    swtch: SE0
+    func: PLAY_TRACK
+    def: idlup,1x
+  4:
+    swtch: SE1
+    func: PLAY_TRACK
+    def: idlup1,1x
+  5:
+    swtch: SE2
+    func: PLAY_TRACK
+    def: idlup2,1x
+  6:
+    swtch: SF0
+    func: PLAY_TRACK
+    def: thrhld,1x
+swashR:
+  type: TYPE_NONE
+  value: 0
+  collectiveSource: NONE
+  aileronSource: NONE
+  elevatorSource: NONE
+  collectiveWeight: 0
+  aileronWeight: 0
+  elevatorWeight: 0
+thrTraceSrc: Thr
+switchWarningState: AuBuCuDuEuFuGu
+thrTrimSw: 0
+potsWarnMode: WARN_OFF
+jitterFilter: GLOBAL
+potsWarnEnabled: 0
+displayChecklist: 0
+telemetryProtocol: 0
+varioData:
+  source: none
+  centerSilent: 0
+  centerMax: 0
+  centerMin: 0
+  min: 0
+  max: 0
+rssiSource: none
+rfAlarms:
+  warning: 45
+  critical: 42
+disableTelemetryWarning: 0
+moduleData:
+  0:
+    type: TYPE_MULTIMODULE
+    subType: 21,0
+    channelsStart: 0
+    channelsCount: 16
+    failsafeMode: NOPULSES
+    mod:
+      multi:
+        disableTelemetry: 0
+        disableMapping: 0
+        autoBindMode: 0
+        lowPowerMode: 0
+        optionValue: 65
+trainerData:
+  mode: MASTER_TRAINER_JACK
+  channelsStart: 0
+  channelsCount: -8
+  frameLength: 0
+  delay: 0
+  pulsePol: 0
+screenData:
+  0:
+    LayoutId: Layout1x1
+    layoutData:
+      zones:
+        0:
+          widgetName: Outputs
+          widgetData:
+            options:
+              0:
+                type: Signed
+                value:
+                  signedValue: 1
+              1:
+                type: Bool
+                value:
+                  boolValue: 0
+              2:
+                type: Color
+                value:
+                  color: 0x000000
+              3:
+                type: Color
+                value:
+                  color: 0x000000
+              4:
+                type: Color
+                value:
+                  color: 0x105c98
+      options:
+        0:
+          type: Bool
+          value:
+            boolValue: 1
+        1:
+          type: Bool
+          value:
+            boolValue: 1
+        2:
+          type: Bool
+          value:
+            boolValue: 1
+        3:
+          type: Bool
+          value:
+            boolValue: 1
+        4:
+          type: Bool
+          value:
+            boolValue: 0
+view: 0
+modelRegistrationID: 624504Q-

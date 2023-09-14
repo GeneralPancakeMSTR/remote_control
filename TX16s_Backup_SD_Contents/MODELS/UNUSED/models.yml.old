@@ -1,0 +1,25 @@
+- Models:
+    - filename: model1.yml
+      name: Model01
+    - filename: model2.yml
+      name: Heli_Template
+    - filename: model3.yml
+      name: Heli_test
+    - filename: model4.yml
+      name: Raw 420 R161
+    - filename: model5.yml
+      name: OMP M1
+    - filename: model6.yml
+      name: RAW 420 RF ELRS
+    - filename: model7.yml
+      name: AccuRC_Heli
+    - filename: model8.yml
+      name: AccuRC_Drone
+    - filename: model9.yml
+      name: AccuRC_Plane
+    - filename: model10.yml
+      name: M2 EVO OMP
+    - filename: model11.yml
+      name: M2 EVO SFHSS
+    - filename: model12.yml
+      name: M2 EVO ELRS
